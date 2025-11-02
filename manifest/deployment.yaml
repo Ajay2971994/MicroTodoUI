@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: todo-ui
+  namespace: microtodo
 spec:
   replicas: 2
   selector:
@@ -17,3 +18,4 @@ spec:
         image: acraadibhai.azurecr.io/todo-ui:v1
         ports:
         - containerPort: 80
+
