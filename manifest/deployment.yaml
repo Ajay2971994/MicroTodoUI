@@ -15,9 +15,10 @@ spec:
     spec:
       containers:
       - name: todo-ui
-        image: acraadibhai.azurecr.io/todo-ui:v1
+        image: readytofight112.azurecr.io/acrreadytofight:v1
         ports:
         - containerPort: 80
+
 
 
 
